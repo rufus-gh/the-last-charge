@@ -1,0 +1,19 @@
+Sound effects in this folder
+
+zombie-groan-1 .. 4  Zombie Moans by Darsycho, CC0
+                     https://opengameart.org/content/zombie-moans
+                     (one 16 s file, cut into four groans)
+zombie-groan-5 .. 7, zombie-snarl
+                     Zombie noises and moans by ianzazz, CC0
+                     https://opengameart.org/content/zombie-noises-and-moans
+                     (zombienoise1-3 and fastzombie1)
+
+explosion-distant    Muffled Distant Explosion by NenadSimic, CC0
+                     https://opengameart.org/content/muffled-distant-explosion
+explosion-blast      Synthesized Explosion by qubodup, CC0
+                     https://opengameart.org/content/synthesized-explosion
+
+Everything else here (guns, knife, reload, hatch, helicopter, thump, level-up) came from the team's own sound pack.
+
+explosion-final      "Explosion" by florianreichelt (Freesound #563010)
+                     https://freesound.org/s/563010/  (check the licence on that page before release)

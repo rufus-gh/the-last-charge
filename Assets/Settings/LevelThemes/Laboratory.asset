@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb8052f46a954570a1b9bcde44f0178, type: 3}
+  m_Name: Laboratory
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTheme
+  displayName: Research Lab (B5)
+  wallMaterial: {fileID: 2100000, guid: db79474c3a958450dafbde664af9b459, type: 2}
+  floorMaterial: {fileID: 2100000, guid: acbea56365b13431bb0d575476e199d2, type: 2}
+  ceilingMaterial: {fileID: 2100000, guid: 02e465cc7e98745508737b22b06ee965, type: 2}
+  wallHeight: 3.2
+  roomCount: 4
+  roomSizeRange: {x: 3, y: 3}
+  startRoomSize: {x: 0, y: 0}
+  startRoomFurnishing:
+    prefab: {fileID: 0}
+    layout: 0
+    spacing: {x: 3, y: 3}
+    edgeMargin: 1.4
+  featureRooms: []
+  wallProps:
+  - prefab: {fileID: 1035867568170631018, guid: 73cbad2e21e544e22b4e9ba5fd729579, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 4740925489786738202, guid: c26d174c73cef4a25b139e13ffe20d0a, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 318525384723490528, guid: 0506175c268ec48caa94286c43884ab7, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 5833328693195669857, guid: 3b56fab7696ca4b0e9fd160ba8e85cc3, type: 3}
+    weight: 1.5
+    tipOverChance: 0.4
+  - prefab: {fileID: 6229712823707762733, guid: 8ecac9fa6d65e4add83cf65d799181ce, type: 3}
+    weight: 1
+    tipOverChance: 0.15
+  - prefab: {fileID: 4302638033082307956, guid: a8aee8af5ab704f1eb14489d24d6e986, type: 3}
+    weight: 0.5
+    tipOverChance: 0.4
+  - prefab: {fileID: 8609588740811471043, guid: 4d67d55936ff94758ac21cadff67284c, type: 3}
+    weight: 0.5
+    tipOverChance: 0.7
+  roomWallProps:
+  - prefab: {fileID: 1035867568170631018, guid: 73cbad2e21e544e22b4e9ba5fd729579, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 4740925489786738202, guid: c26d174c73cef4a25b139e13ffe20d0a, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 318525384723490528, guid: 0506175c268ec48caa94286c43884ab7, type: 3}
+    weight: 2
+    tipOverChance: 0
+  clutter:
+  - prefab: {fileID: 4270149303394357197, guid: 44ac20498c9e6493289493dbb69e74ae, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 3325082736432842464, guid: 317b41dfa4bd048e2ab78e6cfe4e2623, type: 3}
+    weight: 1.5
+    tipOverChance: 0
+  - prefab: {fileID: 484960994120878092, guid: a377d646545244af8a4f9d795a71efd7, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 1087764327663920753, guid: b8ef06cc0a0644800863cce4d8a6d0b4, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 360379839853727109, guid: 104e439764eb441bcbc02510e8f138e7, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 6244618088576273339, guid: 91a2ee035d8f94a3daca2af640563541, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 629435262263283549, guid: 1aed3636e355645bd9139d92f13f9dbf, type: 3}
+    weight: 1
+    tipOverChance: 0
+  wallPropChance: 0.7
+  maxWallPropsPerCell: 2
+  maxClutterPerCell: 4
+  ceilingProps: []
+  ceilingPropChance: 0
+  cobwebs: []
+  cobwebChance: 0
+  pipeChance: 0
+  pipeRuns: []
+  windowChance: 0
+  windows: []
+  windowSill: 0.9
+  windowHeader: 0.4
+  windowWidth: 0.7
+  outdoors: 0
+  skybox: {fileID: 0}
+  sunColor: {r: 1, g: 0.95, b: 0.85, a: 1}
+  sunIntensity: 1.6
+  sunEuler: {x: 35, y: 40, z: 0}
+  cityElevation: 60
+  cityFacadeMaterial: {fileID: 0}
+  cityGroundMaterial: {fileID: 0}
+  lightFixture: {fileID: 3411139055756739420, guid: fba3c247cc4d94bd3985bfc3de88d7ff, type: 3}
+  deadFixtureMaterial: {fileID: 2100000, guid: a28b779271d8849ca833f976789d8536, type: 2}
+  lightChance: 0.2
+  flickerChance: 0.5
+  deadChance: 0.3
+  ambientColor: {r: 0.014, g: 0.026, b: 0.026, a: 1}
+  fogColor: {r: 0.008, g: 0.02, b: 0.02, a: 1}
+  fogDensity: 0.06
+  exitPrefab: {fileID: 4296373293764644829, guid: cb0707de869234e32b51eae9d453c883, type: 3}
+  goalPrefab: {fileID: 4104973335598873378, guid: 77ea874f8707b4d808e1c6697a0d8e81, type: 3}
+  bossPrefab: {fileID: 0}
+  goalRoomSize: {x: 8, y: 8}

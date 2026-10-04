@@ -1,0 +1,10 @@
+Weapon icons
+
+All icons are from game-icons.net (https://game-icons.net), licensed CC BY 3.0
+(https://creativecommons.org/licenses/by/3.0/). They were fetched as SVG from the project's GitHub repository
+(https://github.com/game-icons/icons), cropped and scaled to the sizes the game uses, and drawn white.
+
+Pistol            Glock                    by Skoll
+Rifle             AK47                     by Skoll
+Shotgun           Sawed-off shotgun        by Delapouite
+Knife             Bowie knife              by Lorc

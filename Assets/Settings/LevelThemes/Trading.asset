@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb8052f46a954570a1b9bcde44f0178, type: 3}
+  m_Name: Trading
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTheme
+  displayName: Trading Floor (42nd floor)
+  wallMaterial: {fileID: 2100000, guid: d2210008045ff4d02b9b55b02581289c, type: 2}
+  floorMaterial: {fileID: 2100000, guid: e129ec7c7e7b94ecc82a338ba40b465b, type: 2}
+  ceilingMaterial: {fileID: 2100000, guid: fd846b9f64b8047079d397148be78b8f, type: 2}
+  wallHeight: 3.2
+  roomCount: 3
+  roomSizeRange: {x: 2, y: 3}
+  startRoomSize: {x: 6, y: 4}
+  startRoomFurnishing:
+    prefab: {fileID: 6180492549241365891, guid: da61a48c0af184935b9824b8ce1a2905, type: 3}
+    layout: 1
+    spacing: {x: 4.8, y: 4.6}
+    edgeMargin: 1.4
+  featureRooms:
+  - prefab: {fileID: 4037601963946903094, guid: b5f5496123dfb40c9afbae33dd630982, type: 3}
+    layout: 0
+    spacing: {x: 0, y: 0}
+    edgeMargin: 1.4
+  - prefab: {fileID: 4037601963946903094, guid: b5f5496123dfb40c9afbae33dd630982, type: 3}
+    layout: 0
+    spacing: {x: 0, y: 0}
+    edgeMargin: 1.4
+  wallProps:
+  - prefab: {fileID: 6923361991257986497, guid: 4f1be7daf28e84047a97aed96f6ff6b3, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 8149544908630171325, guid: a39d471258851484b95b71fd01cc981b, type: 3}
+    weight: 1.5
+    tipOverChance: 0.4
+  - prefab: {fileID: 5624593484752117795, guid: 773baa890b09447249d1d226186bf832, type: 3}
+    weight: 2
+    tipOverChance: 0.3
+  - prefab: {fileID: 3038750924779947413, guid: d993257f6278b4111ba595ff2f914bee, type: 3}
+    weight: 1.5
+    tipOverChance: 0
+  - prefab: {fileID: 3347096442344216190, guid: c44105960130b4efdb7e430eb38f1ef2, type: 3}
+    weight: 0.7
+    tipOverChance: 0.4
+  - prefab: {fileID: 4302638033082307956, guid: a8aee8af5ab704f1eb14489d24d6e986, type: 3}
+    weight: 1
+    tipOverChance: 0.1
+  - prefab: {fileID: 5755531921875661979, guid: 29bf45c8e54774570a4b490a985c0d34, type: 3}
+    weight: 1
+    tipOverChance: 0.1
+  roomWallProps: []
+  clutter:
+  - prefab: {fileID: 360379839853727109, guid: 104e439764eb441bcbc02510e8f138e7, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 1091717131424563634, guid: 17ae724f55748450e9050dac72aec25b, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 1070928055575046463, guid: 83017c4c6f79b4085af6b40956862b08, type: 3}
+    weight: 1.5
+    tipOverChance: 0
+  - prefab: {fileID: 2960528291612336348, guid: 60607e61932bc4fed9f6ccb679443df5, type: 3}
+    weight: 1
+    tipOverChance: 0
+  wallPropChance: 0.6
+  maxWallPropsPerCell: 2
+  maxClutterPerCell: 4
+  ceilingProps: []
+  ceilingPropChance: 0
+  cobwebs: []
+  cobwebChance: 0
+  pipeChance: 0
+  pipeRuns: []
+  windowChance: 0.6
+  windows:
+  - prefab: {fileID: 4765220311844505536, guid: 20a547f66a0ed4df5b842f31696d91ef, type: 3}
+    weight: 1
+    tipOverChance: 0
+  windowSill: 0.55
+  windowHeader: 0.65000004
+  windowWidth: 0.65
+  outdoors: 1
+  skybox: {fileID: 2100000, guid: 7ca075fcebaa5493799a4c2c1822d0e2, type: 2}
+  sunColor: {r: 1, g: 0.95, b: 0.85, a: 1}
+  sunIntensity: 1.8
+  sunEuler: {x: 32, y: 35, z: 0}
+  cityElevation: 110
+  cityFacadeMaterial: {fileID: 2100000, guid: 9439535bb1db848fcb195ef576d30a48, type: 2}
+  cityGroundMaterial: {fileID: 2100000, guid: d435be5e5023645eb846f28d95771a47, type: 2}
+  lightFixture: {fileID: 8605171247829690023, guid: 9406a2ad679414161b4dc0ca1e61a556, type: 3}
+  deadFixtureMaterial: {fileID: 2100000, guid: a28b779271d8849ca833f976789d8536, type: 2}
+  lightChance: 0.24
+  flickerChance: 0.25
+  deadChance: 0.25
+  ambientColor: {r: 0.08, g: 0.074, b: 0.066, a: 1}
+  fogColor: {r: 0.03, g: 0.022, b: 0.014, a: 1}
+  fogDensity: 0.0025
+  exitPrefab: {fileID: 4296373293764644829, guid: cb0707de869234e32b51eae9d453c883, type: 3}
+  goalPrefab: {fileID: 0}
+  bossPrefab: {fileID: 0}
+  goalRoomSize: {x: 0, y: 0}

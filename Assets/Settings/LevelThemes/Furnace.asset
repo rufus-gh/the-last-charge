@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb8052f46a954570a1b9bcde44f0178, type: 3}
+  m_Name: Furnace
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTheme
+  displayName: Furnace Level (B4)
+  wallMaterial: {fileID: 2100000, guid: 8fe824efe247c4933abe27b423c21f6c, type: 2}
+  floorMaterial: {fileID: 2100000, guid: 37b27714efd4545caac332e4384b853e, type: 2}
+  ceilingMaterial: {fileID: 2100000, guid: 91a2f6b9216ce405696656d35e820030, type: 2}
+  wallHeight: 3.4
+  roomCount: 4
+  roomSizeRange: {x: 2, y: 3}
+  startRoomSize: {x: 0, y: 0}
+  startRoomFurnishing:
+    prefab: {fileID: 0}
+    layout: 0
+    spacing: {x: 3, y: 3}
+    edgeMargin: 1.4
+  featureRooms:
+  - prefab: {fileID: 8414111045051504472, guid: a4edec5a931754d97aa01cbbc630a962, type: 3}
+    layout: 0
+    spacing: {x: 0, y: 0}
+    edgeMargin: 1.4
+  - prefab: {fileID: 8414111045051504472, guid: a4edec5a931754d97aa01cbbc630a962, type: 3}
+    layout: 0
+    spacing: {x: 0, y: 0}
+    edgeMargin: 1.4
+  wallProps:
+  - prefab: {fileID: 4408479957337119492, guid: 24d528075f45c4249b7e887ee287e1fa, type: 3}
+    weight: 0.8
+    tipOverChance: 0
+  - prefab: {fileID: 7867567841012939617, guid: deb43aada323645b18c4aa98b373add6, type: 3}
+    weight: 0.9
+    tipOverChance: 0
+  - prefab: {fileID: 6813508060151001708, guid: 8a31635581f1043d5994cb828132a3fc, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 5925619130793754966, guid: 0a5078f2512264d829426881d7e11c77, type: 3}
+    weight: 2.5
+    tipOverChance: 0
+  - prefab: {fileID: 4260657599738277406, guid: 1104e2e3a498644cfae0b8657401bee8, type: 3}
+    weight: 2
+    tipOverChance: 0.25
+  - prefab: {fileID: 6173299054731442715, guid: 9693f21aa637a4f76b725dc559239e4a, type: 3}
+    weight: 1.5
+    tipOverChance: 0
+  - prefab: {fileID: 7373500125416950233, guid: 5fa72ee6b4040419684ef057a70164cb, type: 3}
+    weight: 0.8
+    tipOverChance: 0.3
+  roomWallProps: []
+  clutter:
+  - prefab: {fileID: 1818196421377791164, guid: 0b9d871a20e3946cea286e73f6bc8c87, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 1945221089259676472, guid: 60df7e3b6ef5648efafb8d04b0eaaa00, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 8228053045743844201, guid: 00994bff1b3fa408cbe0eacdd25392c3, type: 3}
+    weight: 1.5
+    tipOverChance: 0
+  - prefab: {fileID: 8069622263515745659, guid: 0535da28b83b64000a2c9d768d248a1d, type: 3}
+    weight: 1.5
+    tipOverChance: 0
+  wallPropChance: 0.45
+  maxWallPropsPerCell: 1
+  maxClutterPerCell: 2
+  ceilingProps: []
+  ceilingPropChance: 0
+  cobwebs:
+  - {fileID: 4474850622199140359, guid: e4e863adb08124b87885af0afd9ca515, type: 3}
+  cobwebChance: 0.12
+  pipeChance: 0.6
+  pipeRuns:
+  - segment: {fileID: 8652573252854579162, guid: 37a8dca278d7942dabd2f0bf17c3b8c5, type: 3}
+    end: {fileID: 5227816917528421989, guid: e7d58cde010584c60b560392df97abd7, type: 3}
+  - segment: {fileID: 807343969812827753, guid: 40ae797f7361849288a44268d399a4d2, type: 3}
+    end: {fileID: 8309670126153717434, guid: 9eb0203bb5cc44d99bc49fe76da0a856, type: 3}
+  - segment: {fileID: 2014111421778409650, guid: ba8564452cd70468d8e65ba6ec5e72e6, type: 3}
+    end: {fileID: 3458581124786117394, guid: 7177512e81625427898bc1aed94e1959, type: 3}
+  windowChance: 0
+  windows: []
+  windowSill: 0.9
+  windowHeader: 0.4
+  windowWidth: 0.7
+  outdoors: 0
+  skybox: {fileID: 0}
+  sunColor: {r: 1, g: 0.95, b: 0.85, a: 1}
+  sunIntensity: 1.6
+  sunEuler: {x: 35, y: 40, z: 0}
+  cityElevation: 60
+  cityFacadeMaterial: {fileID: 0}
+  cityGroundMaterial: {fileID: 0}
+  lightFixture: {fileID: 3907545529903216919, guid: 80fd0335385984129958d8bb756c4e0e, type: 3}
+  deadFixtureMaterial: {fileID: 2100000, guid: e31380bc504e746ddacc745c3d66bae5, type: 2}
+  lightChance: 0.015
+  flickerChance: 0
+  deadChance: 0
+  ambientColor: {r: 0.004, g: 0.003, b: 0.0025, a: 1}
+  fogColor: {r: 0.006, g: 0.003, b: 0.002, a: 1}
+  fogDensity: 0.07
+  exitPrefab: {fileID: 4296373293764644829, guid: cb0707de869234e32b51eae9d453c883, type: 3}
+  goalPrefab: {fileID: 0}
+  bossPrefab: {fileID: 0}
+  goalRoomSize: {x: 0, y: 0}

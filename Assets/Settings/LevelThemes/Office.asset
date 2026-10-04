@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb8052f46a954570a1b9bcde44f0178, type: 3}
+  m_Name: Office
+  m_EditorClassIdentifier: Assembly-CSharp::LevelTheme
+  displayName: Abandoned Offices (B3)
+  wallMaterial: {fileID: 2100000, guid: 2dad78b9589a54ad382fc24238b8179e, type: 2}
+  floorMaterial: {fileID: 2100000, guid: 323828c383eec467dacc54a89576aa1d, type: 2}
+  ceilingMaterial: {fileID: 2100000, guid: a5a3d20655aae4a53bde10f7f16f8425, type: 2}
+  wallHeight: 3
+  roomCount: 4
+  roomSizeRange: {x: 2, y: 3}
+  startRoomSize: {x: 0, y: 0}
+  startRoomFurnishing:
+    prefab: {fileID: 0}
+    layout: 0
+    spacing: {x: 3, y: 3}
+    edgeMargin: 1.4
+  featureRooms: []
+  wallProps:
+  - prefab: {fileID: 3048272047801530215, guid: 00abcbc5e24a44b9a8965561c294bcea, type: 3}
+    weight: 3
+    tipOverChance: 0
+  - prefab: {fileID: 6485017937856009067, guid: af9eea761f8d44f4ca56af9902d471a3, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 5833328693195669857, guid: 3b56fab7696ca4b0e9fd160ba8e85cc3, type: 3}
+    weight: 2
+    tipOverChance: 0
+  - prefab: {fileID: 4302638033082307956, guid: a8aee8af5ab704f1eb14489d24d6e986, type: 3}
+    weight: 2
+    tipOverChance: 0.15
+  - prefab: {fileID: 712789751017359565, guid: 41d3d81b97db34b188b307b483e77386, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 8609588740811471043, guid: 4d67d55936ff94758ac21cadff67284c, type: 3}
+    weight: 1.5
+    tipOverChance: 0.5
+  - prefab: {fileID: 7373500125416950233, guid: 5fa72ee6b4040419684ef057a70164cb, type: 3}
+    weight: 1.5
+    tipOverChance: 0.2
+  - prefab: {fileID: 3347096442344216190, guid: c44105960130b4efdb7e430eb38f1ef2, type: 3}
+    weight: 0.7
+    tipOverChance: 0.4
+  - prefab: {fileID: 5755531921875661979, guid: 29bf45c8e54774570a4b490a985c0d34, type: 3}
+    weight: 1
+    tipOverChance: 0.1
+  roomWallProps: []
+  clutter:
+  - prefab: {fileID: 360379839853727109, guid: 104e439764eb441bcbc02510e8f138e7, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 1091717131424563634, guid: 17ae724f55748450e9050dac72aec25b, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 1761661769912912953, guid: a65c45110c4584d658ba41163ca06b76, type: 3}
+    weight: 1
+    tipOverChance: 0
+  - prefab: {fileID: 5254317673301290836, guid: 3265835050af34035af25fec6422440f, type: 3}
+    weight: 1
+    tipOverChance: 0
+  wallPropChance: 0.65
+  maxWallPropsPerCell: 2
+  maxClutterPerCell: 3
+  ceilingProps: []
+  ceilingPropChance: 0
+  cobwebs:
+  - {fileID: 558154314242273453, guid: 60b22b8fbdc544715b918c3bfae32f1c, type: 3}
+  - {fileID: 4474850622199140359, guid: e4e863adb08124b87885af0afd9ca515, type: 3}
+  cobwebChance: 0.3
+  pipeChance: 0
+  pipeRuns: []
+  windowChance: 0
+  windows: []
+  windowSill: 0.9
+  windowHeader: 0.4
+  windowWidth: 0.7
+  outdoors: 0
+  skybox: {fileID: 0}
+  sunColor: {r: 1, g: 0.95, b: 0.85, a: 1}
+  sunIntensity: 1.6
+  sunEuler: {x: 35, y: 40, z: 0}
+  cityElevation: 60
+  cityFacadeMaterial: {fileID: 0}
+  cityGroundMaterial: {fileID: 0}
+  lightFixture: {fileID: 8805752677822189428, guid: 38e1c1072743740bc80ac78ec8073f63, type: 3}
+  deadFixtureMaterial: {fileID: 2100000, guid: a28b779271d8849ca833f976789d8536, type: 2}
+  lightChance: 0.06
+  flickerChance: 0.6
+  deadChance: 0.55
+  ambientColor: {r: 0.008, g: 0.012, b: 0.014, a: 1}
+  fogColor: {r: 0.004, g: 0.008, b: 0.01, a: 1}
+  fogDensity: 0.065
+  exitPrefab: {fileID: 4296373293764644829, guid: cb0707de869234e32b51eae9d453c883, type: 3}
+  goalPrefab: {fileID: 0}
+  bossPrefab: {fileID: 0}
+  goalRoomSize: {x: 0, y: 0}

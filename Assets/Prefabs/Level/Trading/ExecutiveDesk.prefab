@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6923361991257986497
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5683653830987003843}
+  - component: {fileID: 278566625974474489}
+  - component: {fileID: 2195849656928333571}
+  - component: {fileID: 1406707667471918780}
+  m_Layer: 0
+  m_Name: ExecutiveDesk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5683653830987003843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923361991257986497}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &278566625974474489
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923361991257986497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.6474457, y: 1.1976018, z: 1.6250001}
+  m_Center: {x: 0, y: 0.5988009, z: 0.38750002}
+--- !u!33 &2195849656928333571
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923361991257986497}
+  m_Mesh: {fileID: 4300000, guid: e81f8ca7a8abd4bb79464f0f9207cd5e, type: 2}
+--- !u!23 &1406707667471918780
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6923361991257986497}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a433cd384ca4941619feff688c3b70e8, type: 2}
+  - {fileID: 2100000, guid: 1aa589df9dc5f42c3b8a28ab40a34389, type: 2}
+  - {fileID: 8748892135801146194, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: 6303979718155540084, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: -1294284738371021749, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: 3311723187333043063, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: -58116551221407163, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: -351022541804052484, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: -2573733167556495074, guid: bf7ee7722dd3d400e8f4b610f1fa8487, type: 3}
+  - {fileID: 2100000, guid: 274d88766d43542bea5c06e9dc4dd72a, type: 2}
+  - {fileID: 2100000, guid: 73f9e341ddb2241339c9cd1181fc6d19, type: 2}
+  - {fileID: 2100000, guid: 637669de7cac84ec4832dc792aed2823, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
